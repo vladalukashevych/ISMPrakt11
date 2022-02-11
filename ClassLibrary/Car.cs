@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public abstract class Vehicle
+    public class Car : Vehicle
     {
     }
 }
