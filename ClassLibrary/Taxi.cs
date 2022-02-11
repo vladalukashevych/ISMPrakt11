@@ -10,7 +10,7 @@ namespace ClassLibrary
     {
         protected string Corporation { set; get; }
 
-        public Taxi(string manufacturer, string color, double kilometrage, string corporation): base(manufacturer, color, kilometrage)
+        public Taxi(string manufacturer, string color , string corporation, double kilometrage): base(manufacturer, color, kilometrage)
         {
             Corporation = corporation;
         }
