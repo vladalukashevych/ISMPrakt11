@@ -19,7 +19,7 @@ namespace ClassLibrary
         {
             return Odometer;
         }
-        public void OdometerReset()
+        public void ResetOdometer()
         {
             Odometer = 0;
         }
